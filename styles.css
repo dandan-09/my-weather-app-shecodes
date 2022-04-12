@@ -1,0 +1,80 @@
+h1,
+h2,
+ul,
+p {
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+p {
+  padding: 0 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#currently {
+  font-weight: 500;
+}
+
+#description {
+  font-style: italic;
+}
+
+h2 {
+  padding: 0 50px;
+}
+
+.clock {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.row {
+  padding: 10px 0;
+}
+.btn {
+  border: 3px solid #e7057e;
+}
+
+#search-button {
+  margin: 0 50px;
+  width: 60px;
+  padding-left: 50px;
+}
+
+#current-location-button {
+  width: 100px;
+}
+
+.form-control {
+  padding: 9px 70px;
+  margin-left: 50px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.weather-app {
+  border: 5px solid #e7057e;
+  border-radius: 3%;
+  background-color: #fff8f9;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#clock {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a {
+  color: #e7057e;
+  text-decoration: none;
+}
