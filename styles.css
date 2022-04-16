@@ -61,7 +61,11 @@ ul {
 .weather-app {
   border: 5px solid #e7057e;
   border-radius: 3%;
-  background-color: #fff8f9;
+  background: linear-gradient(
+    0deg,
+    rgb(247, 247, 247) 23.8%,
+    rgb(252, 221, 221) 92%
+  );
   max-width: 800px;
   margin: 0 auto;
   margin-top: 20px;
@@ -77,4 +81,9 @@ ul {
 a {
   color: #e7057e;
   text-decoration: none;
+}
+
+.github-link {
+  text-align: center;
+  font-size: 20px;
 }
