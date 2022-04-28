@@ -64,6 +64,15 @@ function showTemperature(response) {
   document.querySelector("#wind-speed").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document
+    .querySelector("#main-icon")
+    .setAttribute(
+      "src",
+      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
+  document
+    .querySelector("#main-icon")
+    .setAttribute("alt", response.data.weather[0].description);
 }
 
 function showLocation(position) {
