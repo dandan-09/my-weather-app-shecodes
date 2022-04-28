@@ -5,13 +5,15 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-h1,
-p {
-  padding: 0 20px;
+h1 {
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 p {
   font-size: 25px;
+  padding: 0 20px;
 }
 
 #currently,
