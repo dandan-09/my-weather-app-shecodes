@@ -64,6 +64,9 @@ function showTemperature(response) {
   document.querySelector("#wind-speed").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document.querySelector("#humidity").innerHTML = `${Math.round(
+    response.data.main.humidity
+  )}%`;
   document
     .querySelector("#main-icon")
     .setAttribute(
