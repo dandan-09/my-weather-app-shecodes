@@ -14,11 +14,18 @@ p {
   font-size: 25px;
 }
 
-#currently {
+#currently,
+#wind-speed-element {
   font-weight: 500;
+  margin-left: -20px;
 }
 
-#description {
+#weather-descriptions {
+  font-size: 22px;
+}
+
+#description,
+#wind {
   font-style: italic;
 }
 
