@@ -36,7 +36,7 @@ let months = [
   "Dec",
 ];
 let month = months[now.getMonth()];
-currentDate.innerHTML = `${date} ${month}, ${day}, ${year}`;
+currentDate.innerHTML = `${day}, ${date} ${month}, ${year}`;
 currentTime.innerHTML = `${hour}:${minutes}`;
 
 function search(city) {
