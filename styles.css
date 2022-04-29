@@ -93,6 +93,10 @@ a {
   text-decoration: none;
 }
 
+.active {
+  color: black;
+}
+
 .github-link {
   text-align: center;
   font-size: 20px;
