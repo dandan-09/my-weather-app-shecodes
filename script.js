@@ -56,14 +56,21 @@ searchForm.addEventListener("submit", handleSubmit);
 
 function showForecast() {
   let forecastElement = document.querySelector("#forecast");
-  forecastElement.innerHTML = `
+  let forecastHTML = "";
+  let forecastDays = ["Monday", "Tuesday", "Wednesday"];
+  forecastDays.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
   <div class="weather-forecast">
   <div class="row">
-  <div class="col-5" id="forecast-date">Monday</div>
+  <div class="col-5" id="forecast-date">${day}</div>
   <div class="col-4"><img src="http://openweathermap.org/img/wn/04d@2x.png" alt=Clouds width="38" /></div>
   <div class="col-2"><span class="max-forecast-temp">16°C</span> | <span class="min-forecast-temp">10°C</span></div>
   </div>
   </div>`;
+    forecastElement.innerHTML = forecastHTML;
+  });
 }
 
 function showTemperature(response) {
